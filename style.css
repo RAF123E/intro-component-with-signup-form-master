@@ -1,0 +1,71 @@
+body{
+    background-image: url(/images/bg-intro-desktop.png);
+    background-color:  hsl(0, 100%, 74%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo{
+    height: 100vh;
+    color: #fff;
+    
+}
+.content{
+    max-width: 520px;
+}
+p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.try{
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.1px solid gray ;
+}
+.form_input{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 6px 5px 5px hsl(249, 10%, 26%);
+    margin-top: 15px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+.txt{
+    color:hsl(246, 25%, 77%) ;
+}
+span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+.item{
+    display: none;
+} 
+
+.input-group {
+    position: relative;
+}
+
+.error-icon {
+    position: absolute;
+    right: 15px;
+    top: 30%;
+    transform: translateY(-50%);
+    display: none;
+}

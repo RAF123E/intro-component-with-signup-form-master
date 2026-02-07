@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-center demo">
+        <div class="content">
+          <h1>Learn to code by <br> watching others</h1>
+          <p>See how experienced developers solve problems in real-time. 
+            Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable.
+          </p>
+        </div>
+
+      </div>
+      <div class="col-md-6 p-5">
+<div class="try">
+  <h6>Try it free 7 days</h6> <small>then $20/mo. thereafter</small>
+</div>
+<div class="d-flex flex-column gap-3 form_input ">
+  
+    <div class="input-group"><input type="text" placeholder="First Name" id="fName">
+      <img src="images/icon-error.svg" class="error-icon">
+      <span class="item" id="item1">First Name cannot be empty</span>
+    </div>
+    <div class="input-group"><input type="text" placeholder="Last Name" id="lName">
+      <img src="images/icon-error.svg" class="error-icon">
+      <span class="item" id="item2">Last Name cannot be empty</span>
+    </div>
+    <div class="input-group"><input type="email" placeholder="Email Address" id="EmailAddr">
+      <img src="images/icon-error.svg" class="error-icon">
+      <span class="item" id="itemEmail">Looks like this is not an email</span>
+    </div>
+    <div class="input-group"><input type="password" placeholder="Password" id="passWord">
+      <img src="images/icon-error.svg" class="error-icon">
+      <span class="item">Password cannot be empty</span>
+    </div>
+<div class=""><button type="button" id="submitBtn">CLAIM YOUR FREE TRIAL</button>
+</div>
+  <div class="d-flex justify-content-center">
+    <small class="txt">By clicking the button, you are agreeing to our</small>
+    <span>Terms and Services</span>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
